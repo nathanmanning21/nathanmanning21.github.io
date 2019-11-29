@@ -33,7 +33,7 @@
 
 /* logo */
 .img-responsive.main-logo {
-	width: 200px;
+	width: 120px;
 	margin-bottom: 0px;
 }
 
@@ -209,32 +209,25 @@ padding-bottom: 30px;
 
 .second-intro {
 	margin-top: 170px;
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 	background-color: #2b2a2a;
+}
+
+.second-intro-width p {
+	font-size: 70px;
 }
 
 .second-intro p {
 	font-family: 'Oswald', sans-serif;
+	text-align: center;
 	line-height: 1.5;
-	font-size: 15px;
-	width: 90%;
+	font-size: 20px;
+	margin-left:  15px;
+	margin-right: 15px;
 	color: #979797;
-
-	padding-bottom: 20px;
 }
 
-.second-intro h1 {
-	font-family: 'Oswald', sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	color: #BF0103;
-}
-
-.second-intro img {
-	margin-top: 20px;
-}
 .services-banner {
 	background: white;
 	padding-bottom: 20px;
@@ -294,7 +287,6 @@ color: #BF0103;
 	width: 90%;
 }
 
-
 .kitchenwork img {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -305,7 +297,6 @@ color: #BF0103;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
-
 
 .kitchenbanner {
 	background-color: white;
@@ -331,17 +322,17 @@ color: #BF0103;
 	width: 90%;
 }
 .latestwork {
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	padding: 20px;
 }
+
 .latestwork h1 {
 	font-family: 'Oswald', sans-serif;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
-
-
 
 .widgets.footer-widgets .widget-title {
     color: #ffffff;
