@@ -38,8 +38,7 @@
 }
 
 .row img {
-		margin:auto;
-
+	margin:auto;
 }
 
 
@@ -329,6 +328,65 @@ color: #BF0103;
 	padding: 20px;
 }
 
+@media (max-width: 900px){
+	.intro h1{
+		text-align: center;
+	}
+
+	.introheader img {
+		height: 180px;
+		width: 100%;
+	}
+
+	.secondaryinto h1 {
+		text-align: center;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 0px;
+	}
+
+	.photogalleryintro h1 {
+		text-align: center;
+	}
+
+	.img-responsive.main-logo {
+		padding-top: 1px;
+		padding-left: 25px;
+		height: 70px;
+	}
+	
+	.col-sm-3 img {
+		margin-bottom: 30px;
+	}
+
+	.contactintro h1, p {
+		text-align: center;
+
+	}
+
+	.intro p {
+		padding-bottom: 30px;
+	}
+
+	.footerfinal h1 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container-services  img{
+		height: 70px;
+	} 
+
+	.container-services p {
+		padding-bottom: 45px;
+	}
+
+	.kitchenbanner h1 {
+		text-align: center;
+	}
+}
+
 .latestwork h1 {
 	font-family: 'Oswald', sans-serif;
 	margin-top:60px;
@@ -597,4 +655,13 @@ background-color: #2b2a2a;
 
 .img-thumbnail {
 	padding: 0px;
+}
+
+.navbar-default {
+	border-color: #BF0103;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #BF0103;
+	color: black;
 }
